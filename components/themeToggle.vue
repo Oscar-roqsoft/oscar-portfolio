@@ -15,7 +15,7 @@
   <script setup>
   import { ref, onMounted } from 'vue';
   import { useDark, useToggle } from '@vueuse/core';
-  import { NButton, NSwitch } from 'naive-ui';
+  import { NSwitch } from 'naive-ui';
   
   // Reactive dark mode state
   const isDark = useDark(); // Use VueUse's `useDark`

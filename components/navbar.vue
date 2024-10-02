@@ -3,6 +3,7 @@
     <div class="min-h-[80px] flex items-center  fixed top-0 left-0 w-full dark:bg-gray-200  bg-gray-900  z-[999] ">
       <div class="md:max-w-[1200px] mx-auto w-full px-4 md:px-0">
         <div class="flex justify-between items-center w-full">
+
           <div @click="navigateTo('/')">
 
             <span class="text-[30px] font-['pacifico'] dark:text-[#1D1D1D] text-white">Oscar<span class="text-[#009969]">Tech</span></span>
@@ -115,7 +116,7 @@
 
 <script setup>
   import { defineComponent, ref } from 'vue'
-  import { NButton, NDropdown } from 'naive-ui'
+  import { NButton } from 'naive-ui'
 
 
   const isDark = useDark()
