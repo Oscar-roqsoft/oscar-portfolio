@@ -115,8 +115,7 @@
   
 
 <script setup>
-  import { defineComponent, ref } from 'vue'
-  import { NButton } from 'naive-ui'
+ import { NSwitch, NButton } from 'naive-ui'
 
 
   const isDark = useDark()

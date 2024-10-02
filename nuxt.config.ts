@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false
   },
-  modules: ['nuxt-icon', '@vueuse/nuxt'],
+  modules: ['nuxt-icon', '@vueuse/nuxt', 'nuxtjs-naive-ui'],
 
   plugins: [
     {src:'~/plugins/scrollAnimation.js'}

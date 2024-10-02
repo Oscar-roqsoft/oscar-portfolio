@@ -27,6 +27,7 @@
 </template>
 
 <script setup>
+import { NSwitch, NButton } from 'naive-ui'
 
 import 'animate.css';
 import gsap from 'gsap'
