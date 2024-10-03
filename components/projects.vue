@@ -8,12 +8,15 @@
          
         <div class="work" >
             <div  id="work" 
-            v-for="work in works " :key="work" class="flex flex-col md:flex-row mt-[50px] border border-[#009969] rounded-lg ">
+            v-for="work in works " :key="work.id" class="flex flex-col md:flex-row mt-[50px]  border border-[#009969] rounded-lg "
+               :class="work.id == 2 || work.id == 4? 'md:flex-row-reverse':''"
+            >
                 <div class="p-6 md:p-[48px] bg-slate-800 rounded-t md:rounded-t-none md:rounded-l-lg">
-                    <img :src="work.img" alt="" class="w-full rounded-lg">
+                    <img  :src="work.img" alt="" class="w-full md:min-h-[320px] rounded-lg">
                 </div>
     
-                <div class="bg-gray-900 rounded-b md:rounded-b-none md:rounded-r-lg p-6 md:p-[48px] dark:text-gray-100 ">
+                <div 
+                class="bg-gray-900 rounded-b md:rounded-b-none md:rounded-r-lg p-6 md:p-[48px] dark:text-gray-100 order-2">
                     <div class="flex justify-start items-center">
                         <h1 class="text-lg text-gray-200 capitalize pb-0.5 border-b-2 border-dotted border-[#009969]">{{ work.title }}</h1>
                     </div>
@@ -65,14 +68,22 @@ onMounted(()=>{
     const works = [
         {
             id:1,
-            img:"/inhouse.png",
-            title: "portfolio-project",
+            img:"/yeerlo.png",
+            title: "Yeerlo event platform",
             article: "Step into the realm of creativity with our Portfolio Design Sample Website. Each click opens a door to a world of aesthetics, innovation, and imagination. Our curated selection of projects is a testament to our passion for design. From sleek UI/UX to captivating graphics, immerse yourself in inspiration. Welcome to design redefined.",
             tools:["html","css","javascript","tailwindCss","nuxtjs"],
+            link:"https://yeerlo.com/"
+        },
+        {
+            id:2,
+            img:"/inhouse.png",
+            title: "Inhouse",
+            article: "Step into the realm of creativity with our Portfolio Design Sample Website. Each click opens a door to a world of aesthetics, innovation, and imagination. Our curated selection of projects is a testament to our passion for design. From sleek UI/UX to captivating graphics, immerse yourself in inspiration. Welcome to design redefined.",
+            tools:["html","css","javascript","tailwindCss","nuxtjs","Gsap","Vuetify"],
             link:"https://inhouse-website-six.vercel.app/"
         },
         {
-            id:1,
+            id:3,
             img:"/nexcent-bg.png",
             title: "Nexcent landing page",
             article: "Nexcent's landing page is the virtual storefront that can make or break a visitor's first impression. Enter Nexcent Agency – your partner in crafting engaging landing pages. With a blend of stunning design, user-centric layout, and strategic calls-to-action, we convert visitors into loyal customers. Elevate your online presence with Nexcent.",
@@ -80,7 +91,7 @@ onMounted(()=>{
             link:"https://oscar-nexcent.netlify.app"
         },
         {
-            id:1,
+            id:4,
             img:"/Banner.png",
             title: "Logistics Website",
             article: "Discover the power of Nuxt.js and Tailwind.css in our Cargo Logistics Sample Website. Seamlessly blending performance and design, it offers lightning-fast user experiences. Explore simplified logistics solutions, real-time tracking, and sleek UI. Witness innovation at the intersection of technology and aesthetics.",

@@ -1,6 +1,9 @@
 <template>
     <div class=" bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
         <!-- home section -->
+
+        <!-- <HireMe /> -->
+
         <section class=" bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
             <navbar/>
             <a href="mailto:oscar.nnoje@gmail.com"><button type="button" 

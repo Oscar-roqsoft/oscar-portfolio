@@ -7,7 +7,7 @@
                  digital experiences that are fast, accessible, visually appealing, and responsive.</p>
 
                  <div class="flex mt-6">
-                    <nuxt-link to="https://oscar-roqsoft.github.io" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center ">
+                    <nuxt-link to="https://github.com/Oscar-roqsoft" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center ">
                         <Icon name="uil:github" size="20" />
                     </nuxt-link>
                     <nuxt-link to="https://twitter.com/LinkNnoje?t=ykBo0-KGm0-qrxi5P2OGMQ&s=09" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center mx-3">
