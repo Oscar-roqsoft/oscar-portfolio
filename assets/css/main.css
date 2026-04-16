@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Pacifico&family=Shrikhand&display=swap');
+
+/* @font-face {
+    font-family: 'SF Pro';
+    src: url('/fonts/SFProText.woff2') format('woff2'),
+         url('/fonts/SFProText.woff') format('woff'),
+         url('/fonts/SFProText.eot') format('eot');
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
