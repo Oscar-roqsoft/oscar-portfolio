@@ -120,7 +120,7 @@ watch(isDark, (newValue) => {
 const works = ref([
   { id: 1, category: "Web App", img: "/yeerlo.png", title: "Yeerlo", 
   article: "Event platform with ticketing, profiles", tools: ["javascript","tailwindcss","nuxtjs"], link: "https://yeerlo.com" },
-  { id: 2, category: "Web App", img: "/inventory.png", title: "Inventory", article: "A simple inventory system that helps track products, manage stock levels, and monitor sales efficiently", 
+  { id: 2, category: "Web App", img: "/inventory.png", title: "Inventory", article: "A simple inventory system that helps track products, manage stock levels, and monitor sales efficiently. USE PASSWORD: 123456 AND USERNAME: test1@gmail.com for testing", 
   tools: ["javascript","mongoDB","express","nodejs","nuxtjs",'shadcn-vue'], link: "https://inventory-app-nine-steel.vercel.app/" },
   { id: 3, category: "Landing Page", img: "/game.png", title: "Nexcent", 
    article: "A platform for organizing gaming tournaments, registering players, scheduling matches, and tracking scores in real time.", 

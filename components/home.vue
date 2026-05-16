@@ -2,9 +2,10 @@
     <div class="flex flex-col-reverse md:flex-row max-w-[1280px] justify-center   md:justify-between items-center mx-auto p-4 " id="home">
         <div class="md:w-[50%] relative -top-32 md:top-0  md:text-start">
             <h1 class="md:text-5xl text-2xl font-bold ">Hi! I Am  <br><span class="text-[#009969]">Nnoje Udochukwu</span> </h1>
-            <h3 class="md:text-3xl my-2 md:my-4 text-xl">I’m a Web Designer and Developer</h3>
-            <p class="text-sm md:text-lg text-gray-400 dark:text-gray-600 md:leading-[30px] leading-6">I'm a front-End developer (Vue.js & tailwind.css) with a focus on creating (and occasionally designing) exceptional
-                 digital experiences that are fast, accessible, visually appealing, and responsive.</p>
+            <h3 class="md:text-3xl my-2 md:my-4 text-xl">I’m a Full-Stack Developer</h3>
+            <p class="text-sm md:text-lg text-gray-400 dark:text-gray-600 md:leading-[30px] leading-6">
+            I'm a Full-Stack Developer specializing in modern web technologies, with expertise in building fast, scalable, accessible, and responsive applications. I work across both frontend and backend development using technologies like Vue.js, Nuxt.js, Tailwind CSS, Node.js,Rust.js and modern APIs to create exceptional digital experiences.
+            </p>
 
                  <div class="flex mt-6">
                     <nuxt-link to="https://github.com/Oscar-roqsoft" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center ">

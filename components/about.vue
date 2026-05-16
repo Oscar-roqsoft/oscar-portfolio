@@ -20,10 +20,10 @@
 
             <div class="text-xs text-white dark:text-black my-5 flex flex-col capitalize w-[70%] md:[50%] ">
                 <span class="mb-2">birthday :    <span class="pl-3">27th may</span></span>
-                <span>address : christ church Eziagulu Ekwulobia,Anambra state,Nigeria.</span>
+                <span>address : FESTAC First Gate(OMOWU ODOFIN),Lagos state,Nigeria.</span>
                 <span class="my-2">phone no : 08084109083</span>
                 <span>language : Igbo and English</span>
-                <span class="my-2">experience : 2+</span>
+                <span class="my-2">experience : 5+</span>
                 <span>freelance : available</span>
                 
             </div>
